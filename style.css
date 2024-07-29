@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  header {
+    display: flex;
+    background-color: white;
+    padding: 0 4vw;
+    gap: 1vw;
+    font-size: 0.8rem;
+    height: 8vh;
+    align-items: center;
+  }
+  header img {
+    width: 7vw;
+  }
+  .header-left {
+    width: 10vw;
+  }
+  .header-middle {
+    flex: 1;
+  }
+  .header-right {
+    width: 22vw;
+  }
+  .header-right a {
+    position: relative;
+  }
+  .header-right img {
+    width: 20px;
+    position: absolute;
+    right: -25px;
+  }
+  header ul {
+    display: flex;
+    gap: 1.5vw;
+  }
+  .header-right ul {
+    gap: 3vw;
+  }
+  .offer a {
+    text-decoration: none;
+    color: black;
+  }
+  footer a:hover {
+    border-bottom: 1px solid black;
+    height: 1.25rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+  }
+  main {
+    padding: 6vw;
+  }
+  .offer, .offer-small {
+    background-color: rgb(155, 240, 11);
+    font-weight: 600;
+    width: max-content;
+    padding: 1%;
+  }
+  .offer-small {
+    width: max-content;
+    height: max-content;
+    padding: 1vw;
+  }
+  .banner1,
+  .banner2,
+  .banner3 {
+    height: 60vh;
+    background-image: url(images/banner1.avif);
+    background-size: cover;
+    background-position: center;
+  }
+  .banner1-text,
+  .banner2-text,
+  .banner3-text {
+    height: 60vh;
+    width: 30vw;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+  }
+  .banner2 {
+    width: 82vw;
+    margin: 15vh auto;
+    color: white;
+    background-image: url(images/Highlight-Games-WWE24CP-EAFC24-Spyro-FY25UGS_VP5-1596x600.avif);
+  }
+  .banner3 {
+    width: 86vw;
+    margin: 15vh 0;
+    color: white;
+    background-image: url(images/Highlight-AI-Volpara-Breast-Cancer-Screening_VP5-1596x600.avif);
+  }
+  .banner3-text {
+    margin-left: 40vw;
+    width: 35vw;
+  }
+  .banner2 .banner-link {
+    color: black;
+    background-color: white;
+  }
+  .banner-link:hover {
+    background-color: #005a9a;
+  }
+  .main-text {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .banner-link {
+    background: rgb(0, 103, 184);
+    color: white;
+    width: max-content;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 3%;
+  }
+
+  .shopping img {
+    width: 20%;
+    margin-left: 4vw;
+  }
+  .shopping a {
+    text-decoration: underline;
+    color: rgb(0, 103, 184);
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .products,
+  .products-ai {
+    display: grid;
+    grid-template-columns: repeat(4, 20vw);
+    width: 90vw;
+    margin: auto;
+    position: relative;
+    gap: 2vw;
+  }
+  .products img,
+  .products-ai img {
+    width: 20vw;
+    height: max-content;
+  }
+
+  .products article,
+  .products-ai article {
+    width: 20vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .products-ai article {
+    width: 28vw;
+  }
+  .products-ai img {
+    width: 28vw;
+  }
+  .products-main-text {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  .products-text {
+    margin-top: 1vh;
+    padding: 0 2vw;
+    display: flex;
+    gap: 2vh;
+    height: 45vh;
+    flex-direction: column;
+  }
+  .products .banner-link,
+  .products-ai .banner-link {
+    position: absolute;
+    bottom: 2vh;
+  }
+  .products-ai article {
+    height: 75vh;
+  }
+  .products-ai {
+    grid-template-columns: repeat(3,27vw);
+    position: relative;
+  }
+  .follow {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+  }
+
+  .footer-container {
+    display: flex;
+    gap: 6vw;
+  }
+  .footer-section {
+    padding-bottom: 5vh;
+  }
+
+  .footer-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #5e5e5e;
+    font-size: 0.7rem;
+  }
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 2vh;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer {
+    background-color: #f2f2f2;
+    width: 100vw;
+    font-size: 0.7rem;
+    padding-top: 2%;
+  }
+  .footer h6 {
+    color: #595959;
+  }
+  .footer ul,
+  .footer h6 {
+    padding-left: 0;
+    margin: 0 20%;
+  }
+  .footer ul li {
+    padding: 5% 0;
+  }
+  .footer-bottom ul {
+    display: flex;
+    gap: 2vw;
+  }
+  .footer a {
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+  .footer-bottom ul li a {
+    text-decoration: none;
+    color: #595959;
+    transition: color 0.3s;
+  }
+  .footer-bottom :nth-child(3){
+    margin-right: 9vw;
+  }
+
+  .nav-link {
+    color: black;
+  }
+  .banner {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/Highlight-Microsoft-365-Copilot-Ad-Young-Woman_VP5-1920x600\ \(1\).avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip:border-box;
+    height: 60vh;
+  }
+  #text {
+    background-color: white;
+    margin-left: 60vw;
+    padding: 3vw;
+    width: 35vw;
+  }
+  @media screen and (max-width: 1200px) {
+    #text {
+      display: none;
+    }
+    #text2 {
+      display: block;
+    }
+    .banner {
+      background-position: -30vw;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    #text {
+      display: block;
+    }
+    #text2 {
+      display: none;
+    }
+  }
+  .products-group .card-body {
+    padding: 5%;
+  }
+  .col-sm-12 {
+    margin-bottom: 5%;
+  }
+
+.banner-card img {
+  object-fit: cover;
+  min-height: 40vh;
+}
+.banner-card .card-body {
+  padding: 4%;
+}
+.xbox-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.pc-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+.banner1,
+.banner2,
+.banner3,
+.banner-card .card-body,
+.banner-card img {
+    display: none; /* Hide both by default */
+}
+
+/* Display banner2 on larger screens */
+@media screen and (min-width: 1200px) {
+    
+    .banner2,
+    .banner1,
+    .banner3 {
+        display: block; /* Show the banner2 */
+    }
+}
+
+/* Display banner-card on smaller screens */
+@media screen and (max-width: 1199px) {
+    .banner-card .card-body,
+    .banner-card img {
+        display: block; /* Show the banner-card */
+    }
+}
+.footer-bottom {
+  background-color:#f2f2f2;
+}
+.footer-bottom ul {
+  padding: 0;
+  margin: 2% 1%;
+}
+
+.footer-bottom ul li {
+  display: inline; 
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-bottom ul {
+      display: block;
+      margin: 2% 5%;
+  }
+
+  .footer-bottom ul li {
+      display: inline-block; /* Keep default inline-block for non-.d-block items */
+  }
+
+  .footer-bottom ul li.d-block {
+      display: block; /* Change .d-block items to block */
+      margin-bottom: 10px; /* Add space between block elements */
+  }
+
+  .footer-bottom p {
+      text-align: center; /* Center align the footer text */
+  }
+}
+
+
+
