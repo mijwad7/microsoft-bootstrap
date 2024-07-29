@@ -301,7 +301,6 @@
 
 .banner-card img {
   object-fit: cover;
-  min-height: 40vh;
 }
 .banner-card .card-body {
   padding: 4%;
@@ -373,5 +372,16 @@
   }
 }
 
+.banner1-img2 {
+  display: none;
+}
 
+@media screen and (max-width:800px) {
+  .banner1-img1 {
+    display: none;
+  }
 
+  .banner1-img2 {
+    display: block;
+  }
+}
