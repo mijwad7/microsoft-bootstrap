@@ -56,9 +56,7 @@
   ul {
     list-style-type: none;
   }
-  main {
-    padding: 6vw;
-  }
+
   .offer, .offer-small {
     background-color: rgb(155, 240, 11);
     font-weight: 600;
@@ -90,14 +88,14 @@
     gap: 3vh;
   }
   .banner2 {
-    width: 82vw;
-    margin: 15vh auto;
+    width: 90vw;
+    margin: 10vh auto;
     color: white;
     background-image: url(images/Highlight-Games-WWE24CP-EAFC24-Spyro-FY25UGS_VP5-1596x600.avif);
   }
   .banner3 {
-    width: 86vw;
-    margin: 15vh 0;
+    width: 90vw;
+    margin: 10vh auto;
     color: white;
     background-image: url(images/Highlight-AI-Volpara-Breast-Cancer-Screening_VP5-1596x600.avif);
   }
@@ -384,4 +382,7 @@
   .banner1-img2 {
     display: block;
   }
+}
+.footer ul, .footer h6 {
+  margin-left: 5%;
 }
