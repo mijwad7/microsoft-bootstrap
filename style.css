@@ -17,6 +17,7 @@
   header img {
     width: 7vw;
   }
+  
   .header-left {
     width: 10vw;
   }
@@ -41,6 +42,7 @@
   .header-right ul {
     gap: 3vw;
   }
+
   .offer a {
     text-decoration: none;
     color: black;
@@ -107,8 +109,13 @@
     color: black;
     background-color: white;
   }
+  .banner2 .banner-link:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.927);
+  }
   .banner-link:hover {
     background-color: #005a9a;
+    color: white;
   }
   .main-text {
     font-size: 2rem;
